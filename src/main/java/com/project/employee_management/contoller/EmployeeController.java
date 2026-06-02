@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/employee")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173","https://your-app.vercel.app"})
 public class EmployeeController {
 
     @Autowired
